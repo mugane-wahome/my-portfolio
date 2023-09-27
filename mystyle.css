@@ -1,8 +1,31 @@
 /* Reset some default styles */
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
+body, h1, h5, h6 {
+    color: darkred;
     margin: 0;
     padding: 0;
 }
+p{
+    color: black;
+    margin: 10px;
+
+}
+li{
+    color: dimgray;
+}
+ h2{
+    color: dodgerblue;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+        color: pink;
+        margin: 0;
+        padding: 0;
+}
+
+
+
+
 
 /* Apply a background color to the body */
 body {
@@ -14,30 +37,32 @@ body {
 
 /* Style the header and navigation */
 header {
-    background-color: #333;
+    background-color: bisque;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
 
 nav ul {
+    color: blue;
     list-style: none;
 }
 
 nav ul li {
+    color: blue;
     display: inline;
     margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: blue;
     font-weight: bold;
 }
 
 /* Style the sections */
 .section {
-    background-color: #fff;
+    background-color:beige;
     padding: 40px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -45,11 +70,12 @@ nav a {
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10px;
 }
 
 /* Style the image */
 img {
+    
     height: auto;
     display: block;
     margin: 20px auto;
@@ -57,11 +83,12 @@ img {
     height:350px;
     width: 350px;
     object-fit:cover;
-    border:5px solid green;
+    border:5px solid blueviolet;
 }
 
 /* Style the work experience items */
 .experience-item {
+    color:red;
     margin-bottom: 20px;
 }
 
@@ -71,6 +98,7 @@ img {
 
 /* Style the list items */
 ul {
+    color: white;
     list-style: disc;
     padding-left: 20px;
 }
@@ -78,7 +106,7 @@ ul {
 /* Media query for responsive design */
 @media (max-width: 768px) {
     header {
-        padding: 10px 0;
+        padding: 10px;
     }
 
     nav ul {
@@ -97,4 +125,7 @@ ul {
         width: 200px;
         height: 200px;
     }
+}
+h4{
+    color: ;
 }
